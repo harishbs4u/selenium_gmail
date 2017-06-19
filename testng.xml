@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Login" verbose ='1'>
+	<test name ="Login Group">
+		<classes>
+			<class name ="com.harish.gmail.webdriver.testcases.search.EmailSearch">
+				<methods>				
+				<include name ="AutoCompleteSelect"/>
+				<!-- <include name ="SearchaText"/> -->
+				</methods>
+			</class>
+			<!--  <class name="com.harish.gmail.webdriver.testcases.logintests.LoginTests">
+				<methods>									
+					<include name ="LoginwithInvalidUserName"/>
+					<include name ="LoginwithValidCredentials"/>
+				</methods>
+				<include name ="Login_anonCanLoginOnAuthModalFromGlobalNavigation" /> 
+			</class> -->
+		</classes>
+	</test>
+</suite>
